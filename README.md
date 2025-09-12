@@ -93,6 +93,8 @@ Defines all the API endpoints and connects them to controllers.
 
 ```bash
 // routes/userRoutes.js
+
+
 const express = require('express');
 const { getUsers } = require('../controllers/userController');
 const router = express.Router();
@@ -109,18 +111,22 @@ Handles the business logic for each route.
 
 ```bash
 // controllers/userController.js
+
+
 exports.getUsers = (req, res) => {
   res.json({ message: 'List of users' });
 };
 
 ```
 
-***3.🛡️ Middleware
+***3.🛡️ Middleware***
 
 Used for things like authentication, logging, etc.
 
 ```bash
 // middleware/authMiddleware.js
+
+
 module.exports = (req, res, next) => {
   console.log('Authentication middleware');
   next();
@@ -128,7 +134,7 @@ module.exports = (req, res, next) => {
 
 ```
 
-***4.⚙️ App and Server Files
+***4.⚙️ App and Server Files***
 
 ***app.js***
 ```bash
