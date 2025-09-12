@@ -4,12 +4,12 @@ This is a simple backend REST API built using **Node.js** and **Express.js**, wi
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure  <br>
 
-backend/
+backend/  <br>
 │
 ├── controllers/ # Route handler logic
-│ └── userController.js
+│ └── userController.js    <br>
 │
 ├── middleware/ # Custom middleware (e.g., auth, logger)
 │ └── authMiddleware.js
