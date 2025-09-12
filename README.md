@@ -45,17 +45,17 @@ backend/  <br>
    cd backend
 
 <pre>
-  2.Install dependencies
+ ## 2.Install dependencies
    
   npm install
 
 
-  3.Create a .env file
+##  3.Create a .env file
 
   PORT = 3000
 
 
-  4.Start the server
+ ## 4.Start the server
 
   for the Development :
   
@@ -70,12 +70,14 @@ backend/  <br>
 </pre>
 <br>
 
+---
 
-🧱 Folder Explanation
-1. 🛣️ Routes
+##🧱 Folder Explanation
+***1. 🛣️ Routes***
 
 Defines all the API endpoints and connects them to controllers.
 
+```bash
 // routes/userRoutes.js
 const express = require('express');
 const { getUsers } = require('../controllers/userController');
