@@ -87,6 +87,8 @@ backend/  <br>
 ---
 
 ##🧱 Folder Explanation
+
+
 ***1. 🛣️ Routes***
 
 Defines all the API endpoints and connects them to controllers.
