@@ -44,36 +44,45 @@ backend/  <br>
    git clone https://github.com/your-username/your-repo.git
    cd backend
 
-
+ ---
 ## 2.Install dependencies
-
----
-   
+   ```bash
   npm install
+```
   ---
 
-
+ ---
 ##  3.Create a .env file
+
+```bash
 
   PORT = 3000
 
+```
+
+  ---
+
+
+  ---
 
  ## 4.Start the server
-   ---
+
+ 
+
 
   for the Development :
+  ```bash
   
    npm run dev
+```
 
 
   for the production :
-
+```bash
   npm start
-   
+```
 
 
-
-<br>
 
 ---
 
@@ -92,4 +101,6 @@ router.get('/', getUsers);
 
 module.exports = router; 
  ---
+```
+
 
