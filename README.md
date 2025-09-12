@@ -23,3 +23,49 @@ backend/  <br>
 └── package.json          # Project metadata and dependencies              <br>
 
 </pre>
+
+
+
+---
+
+## 🚀 Technologies Used
+
+- **Node.js** – JavaScript runtime
+- **Express.js** – Web framework
+- **Dotenv** – Manage environment variables
+- **Nodemon** *(dev)* – Auto-restarts server during development
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd backend
+
+<pre>
+  2.Install dependencies
+   
+  npm install
+
+
+  3.Create a .env file
+
+  PORT = 3000
+
+
+  4.Start the server
+
+  for the Development :
+  
+   npm run dev
+
+
+  for the production :
+
+  npm start
+
+
+</pre>
+<br>
