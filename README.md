@@ -5,7 +5,7 @@ This is a simple backend REST API built using **Node.js** and **Express.js**, wi
 ---
 
 ## 📁 Project Structure  <br>
-<pre></pre>
+<pre>
 backend/  <br>
 │                   <br>
 ├── controllers/              # Route handler logic   <br>
