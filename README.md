@@ -44,10 +44,13 @@ backend/  <br>
    git clone https://github.com/your-username/your-repo.git
    cd backend
 
-<pre>
- ## 2.Install dependencies
+
+## 2.Install dependencies
+
+---
    
   npm install
+  ---
 
 
 ##  3.Create a .env file
@@ -56,6 +59,7 @@ backend/  <br>
 
 
  ## 4.Start the server
+   ---
 
   for the Development :
   
@@ -65,9 +69,10 @@ backend/  <br>
   for the production :
 
   npm start
+   
 
 
-</pre>
+
 <br>
 
 ---
@@ -85,66 +90,6 @@ const router = express.Router();
 
 router.get('/', getUsers);
 
-module.exports = router;
-
-2. 🧠 Controllers
-
-Handles the business logic for each route.
-
-// controllers/userController.js
-exports.getUsers = (req, res) => {
-  res.json({ message: 'List of users' });
-};
-
-3. 🛡️ Middleware
-
-Used for things like authentication, logging, etc.
-
-// middleware/authMiddleware.js
-module.exports = (req, res, next) => {
-  console.log('Authentication middleware');
-  next();
-};
-
-4. ⚙️ App and Server Files
-app.js
-const express = require('express');
-const userRoutes = require('./routes/userRoutes');
-
-const app = express();
-
-app.use(express.json());
-app.use('/api/users', userRoutes);
-
-module.exports = app;
-
-server.js
-const app = require('./app');
-const dotenv = require('dotenv');
-
-dotenv.config();
-
-const PORT = process.env.PORT || 5000;
-
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
-
-📬 API Endpoints
-Method	Endpoint	Description
-GET	/api/users	Get list of users
-🧪 Testing
-
-You can test the API using tools like Postman or cURL:
-
-curl http://localhost:5000/api/users
-
-📄 License
-
-This project is licensed under the MIT License.
-
-
----
-
-Would you like me to also generate a sample `package.json` or `.env` file? Or help structure the repo as a downloadable template?
+module.exports = router; 
+ ---
 
